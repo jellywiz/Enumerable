@@ -8,10 +8,8 @@ class MyList
     @list = *list
   end
 
-  def each
-    for item in @list do
-      yield item
-    end
+  def each(&block)
+    @list.each(&block) if block_given?
   end
 end
 
@@ -25,4 +23,4 @@ list.any? { |e| e == 2 }
 
 list.any? { |e| e == 5 }
 
-list.filter? { |e| e.even? }
+list.filter?(&:even?)
