@@ -1,4 +1,4 @@
-module Enumerable
+module MyEnumerable
   def all?
     output = []
     puts "\n ---------------------------- \n"
