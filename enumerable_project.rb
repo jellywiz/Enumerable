@@ -3,10 +3,10 @@ module MyEnumerable
     output = []
     puts "\n ---------------------------- \n"
     print "METHOD ALL?\n"
-    print "Data reviced:           #{list}\n"
-    list.each { |number| output.push(number) if yield number }
+    print "Data reviced:           #{@list}\n"
+    @list.each { |number| output.push(number) if yield number }
     puts "Output data:            #{output}"
-    puts "Result:                 #{output.length == list.length}"
+    puts "Result:                 #{output.length == @list.length}"
     puts " ---------------------------- \n\n"
   end
 
@@ -14,8 +14,8 @@ module MyEnumerable
     output = []
     puts "\n ---------------------------- \n"
     print "METHOD ANY?\n"
-    print "Data reviced:           #{list}\n"
-    list.each { |number| output.push(number) if yield number }
+    print "Data reviced:           #{@list}\n"
+    @list.each { |number| output.push(number) if yield number }
     puts "Output data:            #{output}"
     puts "Result:                 #{!output.empty?}"
     puts " ---------------------------- \n\n"
@@ -25,8 +25,8 @@ module MyEnumerable
     output = []
     puts "\n ---------------------------- \n"
     print "METHOD FILTER?\n"
-    print "Data reviced:           #{list}\n"
-    list.each { |number| output.push(number) if yield number }
+    print "Data reviced:           #{@list}\n"
+    @list.each { |number| output.push(number) if yield number }
     puts "Output data:            #{output}"
     puts " ---------------------------- \n\n"
   end

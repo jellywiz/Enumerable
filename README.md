@@ -42,8 +42,8 @@
 
 > Describe between 1-3 key features of the application.
 
-- **[Decode message]**
-- **[Decod Word]**
+- **[Implement custom enumerable]**
+- **[Create a Module]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -56,9 +56,6 @@
 ## 💻 Getting Started <a name="getting-started"></a>
 
 > Describe how a new developer could make use of your project.
-
-- take a look to the hashmap
-- deode whatever message you want by calling `decode()`
 
 ### Prerequisites
 
