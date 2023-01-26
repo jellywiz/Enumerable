@@ -12,10 +12,10 @@
   - [Install](#install)
   - [Usage](#usage)
 - [👥 Authors](#authors)
+- [Future Features](#future-features)
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
 - [🙏 Acknowledgements](#acknowledgements)
-- [❓ FAQ (OPTIONAL)](#faq)
 - [📝 License](#license)
 
 <!-- PROJECT DESCRIPTION -->
@@ -88,9 +88,16 @@ Clone this repository to your desired folder.
 
 - GitHub: [@jellywiz](https://github.com/jellywiz)
 
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- FUTURE FEATURES -->
+
+
+### Key Features <a name="future-features"></a>
+
+
+- **[Add select method]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -122,21 +129,6 @@ Feel free to check the [issues page](../../issues/).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- FAQ (optional) -->
-
-## ❓ FAQ (OPTIONAL) <a name="faq"></a>
-
-> Add at least 2 questions new developers would ask when they decide to use your project.
-
-- **[Question_1]**
-
-  - [Answer_1]
-
-- **[Question_2]**
-
-  - [Answer_2]
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- LICENSE -->
 
