@@ -1,3 +1,3 @@
-require_relative './Enumerable'
+require_relative './enumerable_project'
 
 ## myclass class will go through here
